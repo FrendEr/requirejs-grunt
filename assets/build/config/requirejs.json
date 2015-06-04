@@ -1,0 +1,14 @@
+{
+	"libs": {
+		"paths": {
+			"jquery": "./jquery",
+			"underscore": "./underscore",
+			"backbone": "./backbone"
+		},
+		"include": [
+			"jquery",
+			"underscore",
+			"backbone"
+		]
+	}
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>grunt requirejs</title>
+	</head>
+	<body>
+		<header class="header">
+			<h1>I am header</h1>
+		</header>
+		<div class="main">
+			<h2>I am home main title</h2>
+			<p>I am home main content</p>
+		</div>
+		<footer class="footer">
+			<p>I am footer</p>
+		</footer>
+		<script>
+			var base = '//quimg.com/assets/dist/js/libs/base.js';
+			//config
+			var requirejs = {
+				baseUrl: '//quimg.com/assets/src',
+				paths: {
+					'jquery': base + '#',
+					'underscore': base + '#',
+					'backbone': base + '#'
+				}
+			};
+		</script>
+		<script data-main="//quimg.com/assets/dist/js/apps/home-app/home-app-main.js" src="//quimg.com/assets/src/js/libs/require.js"></script>
+	</body>
+</html>
