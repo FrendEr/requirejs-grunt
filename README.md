@@ -6,7 +6,7 @@
 
 `bower init` (选择amd模式作为默认模式)
 
-`bower install requirejs --save-dev`
+`bower install backbone --save-dev` (获取的backbone文件支持amd)
 
 
 ###2、使用grunt构建(具体配置见Gruntfile.js文件)
