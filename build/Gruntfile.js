@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 	var path = require('path');
 
 	//paths
-	var workDir = '../assets/'; //relative to the current path: /User/wangxin/Desktop/grunt-requirejs/assets/build/
+	var workDir = '../assets/'; //relative to the current path: /User/wangxin/Desktop/grunt-requirejs/build/
 	var srcDir = path.resolve(workDir, './src/');
 	var destDire = path.resolve(workDir, './dist/');
 
